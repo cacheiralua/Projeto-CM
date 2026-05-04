@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 width: 180,
                 child: ElevatedButton(
-                  onPressed: () => context.go('/news'),
+                  onPressed: () => context.push('/news'),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue[700],
                     foregroundColor: Colors.white,
